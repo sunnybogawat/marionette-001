@@ -1,0 +1,3 @@
+<h1>About Library Manager</h1>
+<p>This application was developed to help me learn the patterns and practices used by David Sulc in his book 'Structuring Backbone Application Using Require JS and Marionette Modules'.</p>
+<p>Mission Accomplished!</p>
