@@ -22,3 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus lacinia
 git flow feature start 001-test      
 git flow feature publish 001-test    
 git flow feature finish 001-test
+
+## Updated doc
+
+This is a test of updating development.
