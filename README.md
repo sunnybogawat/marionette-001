@@ -6,12 +6,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ## Requirements ##
 
 * codio.com
-* Github 
-* Internet connection
+* github 
+* internet connection
 
 ## How to use ##
 
-You have project and this is a hill project to work with Marionette and the very awesome codio.com 
+You have project and this hill project will allow you to baby step Marionette in the awesome codio.com IDE. 
 
 ## How it Works
 
@@ -24,8 +24,6 @@ git flow feature publish 001-test
 git flow feature finish 001-test
 
 ## Installation if you're looking at this in GitHub
-
-If you're reading this in GitHub, follow these steps to get started. If you are already in the Codio IDE then skip to the next section.
 
 1. Create a free account with Codio
 1. The tutorial can be found in this [GitHub repo](https://github.com/wisesmile/marionette-001)
