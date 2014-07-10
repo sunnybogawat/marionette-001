@@ -29,7 +29,6 @@ require.config({
         },
 
         "backbone.picky": ['backbone'],
-
         "backbone.syphon": ['backbone'],
 
         marionette: {
@@ -38,11 +37,8 @@ require.config({
         },
 
         "jquery-ui": ['jquery'],
-
         localstorage: ['backbone'],
-
         "spin.jquery": ['spin', 'jquery']
-
     }
 });
 

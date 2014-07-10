@@ -8,7 +8,6 @@ define(['app'], function (LibraryManager) {
             var filtered = new original.constructor();
 
             filtered.add(original.models);
-
             filtered.filterFunction = options.filterFunction;
 
             var applyFilter = function (filterCriterion, filterStrategy, collection) {
@@ -66,7 +65,6 @@ define(['app'], function (LibraryManager) {
             // and end up with the new filtered result set
             original.on("reset", function () {
                 var items = applyFilter(filtered._currentCriterion, filtered._currentFilter);
-
                 // reset the filtered collection with the new items
                 filtered.reset(items);
             });
