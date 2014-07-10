@@ -19,14 +19,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus lacinia
 
 ## Installation from GitHub
 
-1. Create a free account with Codio
+1. Create a free account with [Codio](http://www.codio.com)
 1. The tutorial can be found in this [GitHub repo](https://github.com/wisesmile/marionette-001)
 1. From the main Codio Dashboard (where your projects are managed) click the 'Create Project' tab.
 1. Select the 'Git' option, paste in the link from Step 2. 
 1. Then press the 'Create Project button'.
 1. As soon as the project has been imported you will be taken to the IDE.
 
-## Install git flow on Codio
+## Git flow on Codio
 
 Update codio parts
 
@@ -42,23 +42,26 @@ $ parts install gitflow
 
 ## Git flow
 
-Start git flow
+Start 
 
 ```
 $ git flow feature start 001-test
 ```
 
-Finish work
+Finish
 
 ```
 $ git flow feature finish 001-test
 ```
 
-Push the feature to the origin repo
+Publish the feature branch to origin
 
 ```
 $ git flow feature publish 001-test    
 ```
 
+Push tags
 
-
+```
+$ git push --tags    
+```
