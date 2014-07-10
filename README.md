@@ -11,8 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## How to use ##
 
-You have project that needs to be written.  This is a spot to learn and explore
-marionette. 
+You have project and this is a hill project to work with Marionette and the very awesome codio.com 
 
 ## How it Works
 
