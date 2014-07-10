@@ -23,6 +23,13 @@ git flow feature start 001-test
 git flow feature publish 001-test    
 git flow feature finish 001-test
 
-## Updated doc
+## Installation if you're looking at this in GitHub
 
-This is a test of updating development.
+If you're reading this in GitHub, follow these steps to get started. If you are already in the Codio IDE then skip to the next section.
+
+1. Create a free account with Codio
+1. The tutorial can be found in this [GitHub repo](https://github.com/wisesmile/marionette-001)
+1. From the main Codio Dashboard (where your projects are managed) click the 'Create Project' tab.
+1. Select the 'Git' option, paste in the link from Step 2. 
+1. Then press the 'Create Project button'.
+1. As soon as the project has been imported you will be taken to the IDE.
