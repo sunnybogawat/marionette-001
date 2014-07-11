@@ -29,7 +29,7 @@ define(['app', 'modules/config/storage/localstorage'], function (LibraryManager)
             }
         });
 
-        //Setup storage for the Book model.
+        // Setup storage the model.
         Entities.configureStorage(Entities.Book);
 
         Entities.Books = Backbone.Collection.extend({
@@ -38,7 +38,7 @@ define(['app', 'modules/config/storage/localstorage'], function (LibraryManager)
             comparator: "bookName"
         });
 
-        //Setup storage for the Books collection.
+        //Setup storage for the collection.
         Entities.configureStorage(Entities.Books);
 
         var initializeBooks = function() {
@@ -105,7 +105,6 @@ define(['app', 'modules/config/storage/localstorage'], function (LibraryManager)
                 var book = new Entities.Book({id : bookId});
                 var defer = $.Deferred();
                 setTimeout(function(){
-                    
                     book.fetch({
                         success: function (data) {
                             defer.resolve(data);
@@ -114,9 +113,7 @@ define(['app', 'modules/config/storage/localstorage'], function (LibraryManager)
                             defer.resolve(undefined);
                         }
                     });
-
                 }, 2000);
-
                 return defer.promise();
             }
         };

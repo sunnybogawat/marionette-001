@@ -1,5 +1,5 @@
-marionette-001
-==============
+marionette hill
+===============
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
@@ -9,9 +9,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 * github 
 * internet connection
 
-## How to use ##
+## But first, why?
 
-You have project and this hill project will allow you to baby step Marionette in the awesome codio.com IDE. 
+You have project, this hill will allow you to baby step through a Marionette app in a cloud based ide. 
 
 ## How it Works
 
@@ -19,12 +19,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus lacinia
 
 ## Installation from GitHub
 
-1. Create a free account with [Codio](http://www.codio.com)
-1. The tutorial can be found in this [GitHub repo](https://github.com/wisesmile/marionette-001)
-1. From the main Codio Dashboard (where your projects are managed) click the 'Create Project' tab.
+1. Create a account with [Codio](http://www.codio.com)
+1. The project is in this [GitHub repo](https://github.com/wisesmile/marionette-001)
+1. Create a new project from the main Codio Dashboard
 1. Select the 'Git' option, paste in the link from Step 2. 
-1. Then press the 'Create Project button'.
-1. As soon as the project has been imported you will be taken to the IDE.
+1. Press the 'Create Project button'.
+1. Enjoy
 
 ## Git flow on Codio
 
