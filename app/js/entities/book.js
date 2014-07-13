@@ -38,7 +38,7 @@ define(['app', 'modules/config/storage/localstorage'], function (LibraryManager)
             comparator: "bookName"
         });
 
-        //Setup storage for the collection.
+        // Setup storage for the collection.
         Entities.configureStorage(Entities.Books);
 
         var initializeBooks = function() {

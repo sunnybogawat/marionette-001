@@ -2,7 +2,7 @@ define(['marionette','jquery-ui'], function (Marionette) {
     Marionette.Region.Dialog = Marionette.Region.extend({
         
         onShow: function (view){
-            //Listen to the dialog:close event.
+            // Listen to the dialog:close event.
             this.listenTo(view, "dialog:close", this.closeDialog);
 
             var self = this;
