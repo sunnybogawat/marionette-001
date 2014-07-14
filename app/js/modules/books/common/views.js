@@ -36,10 +36,10 @@ define(['app', 'tpl!modules/books/common/templates/form.html', 'backbone.syphon'
                         $controlGroup.append($errorEl).addClass("error");
                     };
 
-                    //Clear all the existing errors
+                    // Clear existing errors
                     clearFormErrors();
 
-                    //Mark the new fields as having errors.
+                    // Mark fields as having errors.
                     _.each(errors, markErrors);
                 }
             });

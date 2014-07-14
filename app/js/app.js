@@ -5,13 +5,9 @@ define([
     var LibraryManager = new Marionette.Application();
 
     LibraryManager.addRegions({
-        //Header
         headerRegion: "#header-region",
-        //Main
         mainRegion: "#main-region",
-        //Footer
         footerRegion: "footer-region",
-        //Overlay Dialog
         dialogRegion: Marionette.Region.Dialog.extend({
             el:"#dialog-region"
         })
@@ -26,7 +22,7 @@ define([
         return Backbone.history.fragment;
     };
 
-    //Validate and create a module and the start the same.
+    // Validate and create a module and the start the same.
     LibraryManager.startSubModule = function (moduleName, arguments){
         var currentModule = moduleName ? LibraryManager.module(moduleName) : null;
 
@@ -48,11 +44,9 @@ define([
         if(Backbone.history){
             require(['modules/books/booksModule', 'modules/about/aboutModule'], function (){
                 Backbone.history.start();
-
                 if(LibraryManager.getCurrentRoute() === ''){
                     LibraryManager.trigger("books:list");
-                }
-                
+                }         
             });
         }
     });
